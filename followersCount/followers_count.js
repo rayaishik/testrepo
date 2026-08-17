@@ -17,3 +17,9 @@ function increaseCount() {
     displayCount();
     checkCountValue();
 }
+
+function reset() {
+    alert("Your followers count has been reset.");
+    count = 0;
+    displayCount();
+}
